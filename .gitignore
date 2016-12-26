@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 logs/*
 !.gitkeep
 node_modules/
@@ -5,3 +6,23 @@ bower_components/
 tmp
 .DS_Store
 .idea
+=======
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+
+>>>>>>> c3e1db75b49ee0662c115b17e988e927103e6723
