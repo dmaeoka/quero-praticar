@@ -1,0 +1,49 @@
+/* app css stylesheet */
+// Bourbon
+// See: http://bourbon.io/docs/
+@import 'bourbon/bourbon';
+
+// Susy
+// Susy grid system. See: http://susydocs.oddbird.net/en/latest/
+@import 'susy/su';
+
+// Utilities
+// Sass tools and helpers used across the project.
+@import 'utils/variables';
+@import 'utils/mixins';
+
+// Vendors
+// External libraries and frameworks.
+@import 'vendors/font-awesome/font-awesome';
+@import 'vendors/normalize';
+@import 'vendors/modular-scale';
+
+// Bootstrap
+@import "bootstrap/bootstrap";
+
+
+
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}

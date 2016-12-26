@@ -1,0 +1,64 @@
+// Some common variables and mixins to get you started.
+// Variables allow you to re-use colors, sizes, and other values without repeating
+// yourself. This means that changes that should be small, such as tweaking the
+// coloring or the sizing, can be done in one place, not all over the stylesheet.
+
+$base-font: 		"Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$base-font-cnd:     "Open Sans Condensed", sans-serif;
+$base-font-serif:   Georgia, "Times New Roman", Times, serif;
+$base-font-mono:    Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-icon:  "FontAwesome" !default;
+$fa-var-check:      "\f00c" !default;
+$check-icon:        $fa-var-check !default;
+
+$header-font: 		$base-font;
+$ms-base:           1em, .875em;
+$ms-ratio:          1.618;
+
+
+// base color scheme
+$black:             #000000;
+$white:             #ffffff;
+$green:             #128894;
+$red:               #F31723;//#BF1402
+$pink:              #ff4040;
+$purple:            #612A6D;
+$blue:              #3D9CD2;
+$orange:            #F47E20;
+$dirtWhite:         #F2F5F7;//#f5f5f5
+$grey:              #89949b;
+$lightGrey:         #d6d7d8;
+$mediumGrey:        #a0a1a2;
+$mediumGrey2:       #4e5054;
+$mediumGrey3:       #898989;
+$darkGrey:          #3A4752;//#3c3d41
+$facebook:          #3B5998;
+$twitter:           #55ACEE;
+$gplus:             #D34836;
+$whatsapp:          #2AB200;
+
+
+$body-background: 	$dirtWhite;
+$color_body: 		$mediumGrey3;
+$color_links: 		$green;
+$color_border:		rgba(0,0,0,0.05);
+$error: 			$red;
+$success: 			$green;
+$info: 				$blue;
+
+// layout sizes
+$desktop:			768px;
+$handheld:			568px;
+$container-width:	100%;
+$menu-width:        250px;
+$susy: (
+	columns: 12,
+	gutters: 1,
+	math: fluid,
+	output: float,
+	gutter-position: after,
+
+	use-custom: (
+		box-sizing: false
+	)
+);
