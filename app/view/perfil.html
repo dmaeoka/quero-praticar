@@ -1,0 +1,220 @@
+<div class="well well-sm clearfix text-right" id="searchField">
+	<form class="form-inline">
+		<div class="form-group">
+			<label for="tipo-atividade">Que atividade você quer praticar?</label>
+			<input type="text" class="form-control" id="tipo-atividade" placeholder="Ex. Karate">
+		</div>
+		<div class="form-group">
+			<label for="cidade">Onde?</label>
+			<input type="text" class="form-control" id="cidade" placeholder="Ex. Curitiba">
+		</div>
+		<button type="submit" class="btn btn-info">Procurar</button>
+	</form>
+</div>
+<div class="row row-title">
+	<div class="col-sm-12">
+		<div>
+			<h1 class="tt-page">Meu Perfil</h1>
+			<span class="divider bg-3"></span>
+		</div>
+	</div>
+</div>
+<div class="row row-content">
+	<div class="col-sm-8">
+		<div class="clearfix">
+			<uib-tabset active="active">
+				<uib-tab index="0">
+					<uib-tab-heading>Atividades que curti</uib-tab-heading>
+					<div class="padding clearfix">
+						<div class="clearfix box-salvo relative">
+							<a href="#" class="bot-salvo" class="text-center" title="Remover a atividade?">
+								<span class="tip">Remover essa atividade?</span>
+								<i class="fa fa-heart"></i>
+							</a>
+							<div class="pull-left brick-30 relative img-atividade">
+								<img src="images/team1.jpg" alt="" class="absolute" />
+								<a href="#!/atividade"><img src="images/bg1.jpg" alt="" class="img-rounded" /></a>
+							</div>
+							<div class="desc-atividade">
+								<h3><a href="#!/atividade">JUDÔ KUSSUMOTO</a></h3>
+								<div class="stars">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star-half-o"></i>
+									<i class="fa fa-star-o"></i>
+									<small>(3 avaliações)</small>
+								</div>
+								<div>
+									<strong>Endereço: </strong>Rua Vereador Oswaldo Nascimento Bittencourt, 546 <br />
+									<strong>Cidade: </strong>Curitiba - PR <br>
+									<strong>Telefone: </strong>(41) 3045-0989 <br>
+									<strong>Site: </strong><a href="http://kmfitness.com.br" target="_blank">www.kmfitness.com.br</a>
+									<div class="aberto-fechado">Fechado agora</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</uib-tab>
+				<uib-tab index="1">
+					<uib-tab-heading>Meus interesses</uib-tab-heading>
+					<div class="padding clearfix">
+						<form action="" class="form-horizontal">
+							<div class="item-desc">
+								<h3>Meus interesses</h3>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#" class="badge"><i class="fa fa-times"></i></a> <a href="#!/search"><img src="images/atividade-aikido.jpg" class="img-circle" /> Aikido</a></li>
+									<li class="list-group-item"><a href="#" class="badge"><i class="fa fa-times"></i></a> <a href="#!/search"><img src="images/atividade-aikido.jpg" class="img-circle" /> Judo</a></li>
+									<li class="list-group-item"><a href="#" class="badge"><i class="fa fa-times"></i></a> <a href="#!/search"><img src="images/atividade-aikido.jpg" class="img-circle" /> Jiu-jitsu</a></li>
+									<li class="list-group-item"><a href="#" class="badge"><i class="fa fa-times"></i></a> <a href="#!/search"><img src="images/atividade-aikido.jpg" class="img-circle" /> Muay-thai</a></li>
+									<li class="list-group-item"><a href="#" class="badge"><i class="fa fa-times"></i></a> <a href="#!/search"><img src="images/atividade-aikido.jpg" class="img-circle" /> Orientação</a></li>
+									<li class="list-group-item"><a href="#" class="badge"><i class="fa fa-times"></i></a> <a href="#!/search"><img src="images/atividade-aikido.jpg" class="img-circle" /> Arco e flecha</a></li>
+									<li class="list-group-item"><a href="#" class="badge"><i class="fa fa-times"></i></a> <a href="#!/search"><img src="images/atividade-aikido.jpg" class="img-circle" /> Kendo</a></li>
+								</ul>
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Adicionar mais um interesse?" />
+									<span class="input-group-btn">
+										<button class="btn btn-info" type="button">+</button>
+									</span>
+								</div>
+							</div>
+						</form>
+					</div>
+				</uib-tab>
+				<uib-tab index="2">
+					<uib-tab-heading>Minhas imagens</uib-tab-heading>
+					<div class="padding clearfix">
+						<form action="" class="form-horizontal">
+							<div class="item-desc">
+								<h3>Imagem do perfil</h3>
+								<div class="row">
+									<div class="col-sm-4">
+										<img src="images/team4.jpg" alt="" class="img-thumbnail" />
+									</div>
+									<div class="col-sm-8">
+										<div class="form-group">
+											<input type="file" class="form-control" id="img-perfil" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-desc">
+								<h3>Imagem de capa</h3>
+								<div class="row">
+									<div class="col-sm-7">
+										<img src="images/bg3.jpg" alt="" class="img-thumbnail" />
+									</div>
+									<div class="col-sm-5">
+										<input type="file" class="form-control" id="img-capa" />
+									</div>
+								</div>
+							</div>
+							<div class="item-desc">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<button type="submit" class="btn btn-info">Salvar</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</uib-tab>
+				<uib-tab index="3">
+					<uib-tab-heading>Meus dados</uib-tab-heading>
+					<div class="padding clearfix">
+						<form class="form-horizontal">
+							<div class="item-desc">
+								<h3>Dados pessoais</h3>
+								<div class="form-group">
+									<label for="nome" class="col-sm-3 control-label">Nome Completo</label>
+									<div class="col-sm-9">
+										<input type="email" class="form-control" id="nome" placeholder="Ex. João da Silva">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="sexo" class="col-sm-3 control-label">Eu sou</label>
+									<div class="col-sm-9">
+										<select class="form-control" id="sexo">
+											<option>Homem</option>
+											<option>Mulher</option>
+										</select>
+										<p class="text-muted">A gente só usa esse dado para análise e nunca vamos divulgar isso!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="dataNasc" class="col-sm-3 control-label">Data de Nascimento</label>
+									<div class="col-sm-9">
+										<input type="text" class="form-control" id="dataNasc" placeholder="Ex. 01/01/1970">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="email" class="col-sm-3 control-label">E-mail</label>
+									<div class="col-sm-9">
+										<input type="email" class="form-control" id="email" placeholder="Ex. joao@gmail.com">
+										<p class="text-muted">A gente só usa esse dado para análise e nunca vamos divulgar isso!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="phone" class="col-sm-3 control-label">Telefone</label>
+									<div class="col-sm-9">
+										<input type="phone" class="form-control" id="phone" placeholder="Ex. (41) 9999-9999">
+										<p class="text-muted">Pode ficar tranquilo que não divulgaremos seu telefone!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="cidade" class="col-sm-3 control-label">Onde você mora?</label>
+									<div class="col-sm-9">
+										<input type="text" class="form-control" id="cidade" placeholder="Ex. Curitiba - PR">
+										<p class="text-muted">A gente só quer saber onde você mora pra mostrar pra você que atividades legais tem aí perto!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="cidade" class="col-sm-3 control-label">Descreva-se</label>
+									<div class="col-sm-9">
+										<textarea class="form-control" rows="3"></textarea>
+										<p class="text-muted">Fale um pouquinho de você pra gente!</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="password" class="col-sm-3 control-label">Senha</label>
+									<div class="col-sm-9">
+										<input type="password" class="form-control" id="password" placeholder="Senha">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="password" class="col-sm-3 control-label">Confirme Senha</label>
+									<div class="col-sm-9">
+										<input type="password" class="form-control" id="confirm-password" placeholder="Confirme a Senha">
+									</div>
+								</div>
+							</div>
+							<div class="item-desc">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<button type="submit" class="btn btn-info">Salvar</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</uib-tab>
+			</uib-tabset>
+		</div>
+	</div>
+	<div class="box box-atividade">
+		<div class="imgInstrutor">
+			<img src="images/team4.jpg" class="absolute" alt="">
+			<div class="relative">
+				<div class="gradient black"></div>
+				<img src="images/landscape.jpg" alt="" class="cover" />
+			</div>
+		</div>
+		<div class="padding">
+			<div class="descInstrutor">
+				<h3>Diego Maeoka - 29 anos</h3>
+				<p><strong>E-mail:</strong> dmaeoka@gmail.com</p>
+				<p><strong>Cidade:</strong> Curitiba - PR</p>
+			</div>
+		</div>
+	</div>
+</div>
